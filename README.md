@@ -1,1 +1,0 @@
-# 3dsmax_bugs
