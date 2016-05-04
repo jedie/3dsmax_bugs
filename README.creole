@@ -1,0 +1,62 @@
+
+= about this
+
+Here should be made a list of the most **annoying errors in 3dsmax**.
+
+Please report annoying errors [[https://github.com/jedie/3dsmax_bugs/issues/new|via github issues]] or [[https://help.github.com/articles/using-pull-requests/|send pull requests]]!
+
+This work is licensed under a [[http://creativecommons.org/licenses/by-sa/4.0/|Creative Commons Attribution-ShareAlike 4.0 International License]].
+
+{{https://i.creativecommons.org/l/by-sa/4.0/88x31.png|CC logo}}
+
+= the list of annoying max bugs
+
+== mental ray
+
+=== DBR unuseable in max 2017
+
+The "mental ray Satellite" windows service is not installed correctly in max 2017.
+The user can't start it, so the DBR is not usable.
+
+* Error known since: **04-19-2016**, see thread [[http://forums.autodesk.com/t5/3ds-max-3ds-max-design-general/max-2017-mr-drb-satellite-doesn-t-start/td-p/6281098/|max 2017: MR DRB satellite doesn't start!]]
+* Affected max versions: **2017**
+* Bugfix from Autodesk: **no**
+* Available solution/work-a-round: [[https://github.com/jedie/3dsmax_patches#mentalray-dbr-service-bugfix|github.com/jedie/3dsmax_patches]]
+
+
+=== DBR kills MAX if a single slave dies
+
+* Known since: **2010**, see: [[http://forums.autodesk.com/t5/shading-lighting-and-rendering/dbr-kills-max-even-if-a-single-slave-dies/m-p/6307274|Forum Thread]]
+* Bugfix from Autodesk: no
+* Affected max versions: **2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017**
+* Bugfix from Autodesk: **no**
+* Available solution/work-a-round: **no** (Use a other render engine?!?)
+
+Steps to reproduce:
+
+# start a DBR job
+# just kill the raysat subprocess from one statelite
+# max will freeze
+
+
+=== SSS backburner bug
+
+The MentalRay **subsurface.mi** config text file contains error.
+The result are many rendering warning messages. Render localy will not affected, but this will slow down rendering via backburner massively.
+
+* Known since: **06-13-2011**, see thread [[http://forums.autodesk.com/t5/3ds-max-3ds-max-design-general/sss-material-error/td-p/4208664|sss material error]]
+* Affected max versions: **2012, 2013, 2014, 2015, 2016, 2017**
+* Bugfix from Autodesk: **no**
+* Available solution/work-a-round: [[https://github.com/jedie/3dsmax_patches#sss-patch|github.com/jedie/3dsmax_patches]]
+
+Steps to reproduce:
+
+# Just render a animation scene with SSS material via backburner
+
+
+
+= donation
+
+* [[https://www.paypal.me/JensDiemer|paypal.me/JensDiemer]]
+* [[https://flattr.com/submit/auto?uid=jedie&url=https%3A%2F%2Fgithub.com%2Fjedie%2FPyLucid%2F|Flattr This!]]
+* Send [[http://www.bitcoin.org/|Bitcoins]] to [[https://blockexplorer.com/address/1823RZ5Md1Q2X5aSXRC5LRPcYdveCiVX6F|1823RZ5Md1Q2X5aSXRC5LRPcYdveCiVX6F]]
