@@ -11,6 +11,18 @@ This work is licensed under a [[http://creativecommons.org/licenses/by-sa/4.0/|C
 
 = the list of annoying max bugs
 
+=== settings reset
+
+Sometimes the max settings will be reset. (3dsmax.ini completely new created)
+Seems to be related to run more than one max instances. But not really confirmed.
+
+This error is logged serveral times.
+
+* Error known since: **23-01-2015**, see thread [[http://forums.autodesk.com/t5/3ds-max-3ds-max-design-general/settings-keep-getting-reset-extremely-annoying/m-p/5480385|Forum Thread "Settings keep getting Reset!!! Extremely annoying!!!"]]
+* Affected max versions: **2015, 2016, 2017**
+* Bugfix from Autodesk: **no**
+* Available solution/work-a-round: //backup 3dsmax.ini//
+
 === "Save As" dialog start at files current directory instead of Max/Scenes
 
 With ServicePack 3 for max 2015 the "Save As" dialog start always in the "scene" folder of the project directory.
