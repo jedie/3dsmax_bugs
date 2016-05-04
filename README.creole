@@ -15,6 +15,7 @@ This work is licensed under a [[http://creativecommons.org/licenses/by-sa/4.0/|C
 
 Normally, the viewport should remember their last xform. switching from top (step 1), to perspective (step 2) to top again (step 3) should bring you back to the same location as you had in step 1
 
+* Error known since: **November 03, 2010**, see thread [[http://3dsmaxfeedback.autodesk.com/forums/76763-small-feature-requests/suggestions/1109055-switching-between-viewports-via-hotkeys-doesn-t-re|3dsmaxfeedback idea]]
 * Affected max versions: **2010, 2011, 2012, 2013, 2014, 2015, 2016**
 * Bugfix from Autodesk: **fixed in max 2017**
 * Available solution/work-a-round: Some maxscript solution are availale:
