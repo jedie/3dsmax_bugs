@@ -11,6 +11,19 @@ This work is licensed under a [[http://creativecommons.org/licenses/by-sa/4.0/|C
 
 = the list of annoying max bugs
 
+
+=== PhysCamera
+
+The new PhysCamera has many Bugs. Some settings would be ignore if render passes is activated or if the camera is on a hidden layer.
+
+These errors are logged serveral times.
+
+* Error known since: **03-02-2016**, see thread [[http://forums.autodesk.com/t5/3ds-max-3ds-max-design-general/render-passes-with-physical-camera-not-aligning-in-composit/m-p/6022929|	Render passes with Physical Camera not aligning in composit (en)]] or [[http://forums.autodesk.com/t5/3ds-max-deutsch/probleme-mit-physcamera/m-p/6535847|Probleme mit PhysCamera (de)]]
+* Affected max versions: **2016, 2017**
+* Bugfix from Autodesk: **no**
+* Available solution/work-a-round: **no**
+
+
 === settings reset
 
 Sometimes the max settings will be reset. (3dsmax.ini completely new created)
