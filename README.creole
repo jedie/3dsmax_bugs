@@ -31,8 +31,11 @@ Seems to be related to run more than one max instances. But not really confirmed
 
 This error is logged serveral times.
 
-* Error known since: **23-01-2015**, see thread [[http://forums.autodesk.com/t5/3ds-max-3ds-max-design-general/settings-keep-getting-reset-extremely-annoying/m-p/5480385|Forum Thread "Settings keep getting Reset!!! Extremely annoying!!!"]]
-* Affected max versions: **2015, 2016, 2017**
+* Error known since: **2014**, see threads:
+** [[http://forums.autodesk.com/t5/3ds-max-3ds-max-design-general/3dsmax-ini-file-going-corrupt/m-p/5219419|3dsmax.ini file going corrupt]] (en)
+** [[http://forums.autodesk.com/t5/3ds-max-deutsch/3dsmax-ini-wird-ruckgesetzt/m-p/6201098|3dsmax.ini wird rückgesetzt...]] (de)
+** [[http://forums.autodesk.com/t5/3ds-max-3ds-max-design-general/settings-keep-getting-reset-extremely-annoying/m-p/5480385|Forum Thread "Settings keep getting Reset!!! Extremely annoying!!!"]] (en)
+* Affected max versions: **2014, 2015, 2016, 2017**
 * Bugfix from Autodesk: **no**
 * Available solution/work-a-round: //backup 3dsmax.ini//
 
