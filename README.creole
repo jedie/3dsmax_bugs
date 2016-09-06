@@ -11,6 +11,7 @@ This work is licensed under a [[http://creativecommons.org/licenses/by-sa/4.0/|C
 
 = the list of annoying max bugs
 
+== misc bugs
 
 === PhysCamera
 
@@ -60,7 +61,7 @@ Normally, the viewport should remember their last xform. switching from top (ste
 ** [[https://github.com/jedie/python-code-snippets/tree/master/3dsmaxScripts/ViewportSwitchFix|ViewportSwitchFix by Jens Diemer]]
 ** [[http://www.scriptspot.com/3ds-max/scripts/proviewportswitcher|ProViewportSwitcher by Jonathan de Blok]]
 
-== mental ray
+== mental ray bugs
 
 === DBR unuseable in max 2017
 
@@ -87,6 +88,23 @@ Steps to reproduce:
 # just kill the raysat subprocess from one statelite
 # max will freeze
 
+
+== backburner bugs
+
+=== Incompatible Adapter
+
+Sometimes backburner server yields the error, like:
+{{{
+Incompatible Adapter: C:\Program Files\Autodesk\3ds Max 2017\maxadapter.adp.exe
+}}}
+So the server can't render jobs.
+
+* Known since: **07-11-2012**, see threads:
+** [[http://forums.autodesk.com/t5/3ds-max-3ds-max-design-general/backburner-is-not-working-for-me/m-p/4270323/|Backburner is not working for me]]
+** [[http://forums.autodesk.com/t5/3ds-max-3ds-max-design-general/backburner-server-well-known-bug-in-2016-too-incompatible/m-p/6279172/|Backburner server well known bug in 2016, too: Incompatible Adapter]]
+* Affected max versions: **2012, 2013, 2014, 2015, 2016, 2017**
+* Bugfix from Autodesk: **no**
+* Available solution/work-a-round: //Delete backburner data directory//
 
 === SSS backburner bug
 
