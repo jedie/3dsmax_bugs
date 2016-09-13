@@ -50,6 +50,7 @@ Before SP3 it was the current .max file directory.
 * Bugfix from Autodesk: **fixed in max 2017**
 * Available solution/work-a-round: [[http://forums.autodesk.com/t5/3ds-max-3ds-max-design-general/2015-sp3-bug-quot-file-save-as-quot-directory/m-p/6210635#M112019|maxscript]]
 
+
 === Switching between viewports via hotkeys doesn't remember last view
 
 Normally, the viewport should remember their last xform. switching from top (step 1), to perspective (step 2) to top again (step 3) should bring you back to the same location as you had in step 1
@@ -61,7 +62,9 @@ Normally, the viewport should remember their last xform. switching from top (ste
 ** [[https://github.com/jedie/python-code-snippets/tree/master/3dsmaxScripts/ViewportSwitchFix|ViewportSwitchFix by Jens Diemer]]
 ** [[http://www.scriptspot.com/3ds-max/scripts/proviewportswitcher|ProViewportSwitcher by Jonathan de Blok]]
 
+
 == mental ray bugs
+
 
 === DBR unuseable in max 2017
 
@@ -70,7 +73,7 @@ The user can't start it, so the DBR is not usable.
 
 * Error known since: **04-19-2016**, see thread [[http://forums.autodesk.com/t5/3ds-max-3ds-max-design-general/max-2017-mr-drb-satellite-doesn-t-start/td-p/6281098/|max 2017: MR DRB satellite doesn't start!]]
 * Affected max versions: **2017**
-* Bugfix from Autodesk: **no**
+* Bugfix from Autodesk: **no** logged as **MAXX-30618**
 * Available solution/work-a-round: [[https://github.com/jedie/3dsmax_patches#mentalray-dbr-service-bugfix|github.com/jedie/3dsmax_patches]]
 
 
